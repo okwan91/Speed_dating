@@ -31,6 +31,12 @@ The dataset provided each partner each participant met and how they ranked. Firs
      4. Shared Interest
      5. Ambition 
 
-### More Visualizations by Ethnicity, Age, and Gender
+#### Female Preferences vs Male Preferences by Age
 
-![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/f_attr1_1.png?raw=True "Female attractiveness priority")
+![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/f_attr1_1.png?raw=True "Female attractiveness priority") 
+![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/m_attr1_1.png?raw=True "Male attractiveness priority") 
+
+More graphs for each attribute can be found [here](https://github.com/okwan91/Speed_dating/tree/main/images).
+
+### Self Rating vs Self Market Rating
+The dataset provided data on how participants rated themselves and how they think others rate them. I defined these two points as their self rating and market rating. 99% of participants provided a self rating while only 55% provided a market rating. More males gave a market rating than females, but proportion of market raters between genders was about even.
