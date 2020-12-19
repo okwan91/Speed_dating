@@ -11,12 +11,12 @@ The dataset provided by Columbia Business School on Kaggle had 195 columns conta
   3. How do you rate yourself?
   4. How do you think others rate you?
 
-The dataset provided each partner each participant met and how they ranked. First, I wanted to explore what were the most prioritized attributes by gender and ethnicity. 
+The dataset provided each partner each participant met and how they ranked. First, I wanted to explore trends across different ethnicities by gender. 
 
 
-![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/Desired%20Attributes%20for%20Males.png?raw=True "Desired Attributes for Males")
+![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/Desired%20Attributes%20for%20Men.png?raw=True "Desired Attributes for Males")
 
-![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/Desired%20Attributes%20for%20Females.png?raw=True "Desired Attributes for Females")
+![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/Desired%20Attributes%20for%20Women.png?raw=True "Desired Attributes for Females")
 
 #### As shown in the above graphs:
   * Females prioritized attributes:
@@ -31,7 +31,7 @@ The dataset provided each partner each participant met and how they ranked. Firs
      4. Shared Interest
      5. Ambition 
 
-#### Female Preferences vs Male Preferences by Age
+#### Female Preferences vs Male Preferences by Age on Average
 
 ![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/f_attr1_1.png?raw=True "Female attractiveness priority") 
 ![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/m_attr1_1.png?raw=True "Male attractiveness priority") 
@@ -39,4 +39,12 @@ The dataset provided each partner each participant met and how they ranked. Firs
 More graphs for each attribute can be found [here](https://github.com/okwan91/Speed_dating/tree/main/images).
 
 ### Self Rating vs Self Market Rating
-The dataset provided data on how participants rated themselves and how they think others rate them. I defined these two points as their self rating and market rating. 99% of participants provided a self rating while only 55% provided a market rating. More males gave a market rating than females, but proportion of market raters between genders was about even.
+The dataset provided data on how participants rated themselves and how they think others rate them. I defined these two points as their self rating and market rating. 99% of participants provided a self rating while only 55% provided a market rating. More males gave a market rating than females, but not significantly more. 
+
+When looking into correlations between self and market ratings and their attributes, all the attributes have about the same amount of weight towards market ratings. While analyzing the correlation between self ratings and their attributes, intelligence and attractiveness had a higher correlation and sincerity being the lowest.
+
+![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/Corr_Market.png?raw=True "Market Correlation") 
+![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/Corr_Self.png?raw=True "Self Correlation") 
+
+### You vs Everyone Else
+How I tested how accurate participant's self ratings was by utilizing self ratings, market ratings, and partner ratings to calculate a percentage of error between each self rating against how each participant's partner rated them. 
