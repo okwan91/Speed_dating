@@ -47,4 +47,11 @@ When looking into correlations between self and market ratings and their attribu
 ![alt text](https://github.com/okwan91/Speed_dating/blob/main/images/Corr_Self.png?raw=True "Self Correlation") 
 
 ### You vs Everyone Else
-How I tested how accurate participant's self ratings was by utilizing self ratings, market ratings, and partner ratings to calculate a percentage of error between each self rating against how each participant's partner rated them. 
+Utilizing the mean absolute percentage of error between participant's self ratings, perceived market ratings, and their partner given ratings. Those who provided a market rating had a 26.5% average percent of error while their self ratings had a 25.4% average percent of error. 
+
+## Future Questions
+* How much did participants over or under rate themselves? Would there be certain demographics that had better rates of accuracy?
+* Can other attributes such as age, income, educational background influence how participants rated themselves?
+* Obtain a more recent data set to see if there are generational changes in what attributes are seen as most desirable. 
+* Observe if there were any changes in participant’s self ratings after their matches were revealed.
+
