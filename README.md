@@ -8,8 +8,8 @@ The data collected from a series of speed dating events allows me to see how acc
 The dataset provided by Columbia Business School on Kaggle had 195 columns containing information such as age, ethnicity, income, place of origin, gender, hobbies, and key focus attributes that were collected between 2002 and 2004 during 21 speed dating events. I placed my focus on sets of columns that asked the following:
   1. Attributes their partner possessed
   2. What are the most important attributes to you?
-  3. How do you rate yourself?
-  4. How do you think others rate you?
+  3. How do you rate yourself? (Self Rating)
+  4. How do you think others rate you? (Perceived Market Rating)
 
 The dataset provided each partner each participant met and how they ranked. First, I wanted to explore trends across different ethnicities by gender. 
 
