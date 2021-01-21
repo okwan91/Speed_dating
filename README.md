@@ -5,7 +5,7 @@ Singles today have a plethora of options to help them find their future partner 
 The data collected from a series of speed dating events allows me to see how accurate participants self assessments are in comparison to how others rated them. 
 
 ## Exploration
-The dataset provided by Columbia Business School on Kaggle had 195 columns containing information such as age, ethnicity, income, place of origin, gender, hobbies, and key focus attributes that were collected between 2002 and 2004 during 21 speed dating events. I placed my focus on sets of columns that asked the following:
+The dataset provided by Columbia Business School on Kaggle had 195 columns containing information such as age, ethnicity, income, place of origin, gender, hobbies, and key focus attributes that were collected between 2002 and 2004 during 21 speed dating events. 564 individuals participated between an age range of 18 to mid 50s, and their place of origin varied worldwide. I placed my focus on sets of columns that asked the following:
   1. Attributes their partner possessed
   2. What are the most important attributes to you?
   3. How do you rate yourself? (Self Rating)
